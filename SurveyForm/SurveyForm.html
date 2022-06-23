@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Summer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Summer garden advice</h1>
+    <p id="description">How can you get the most out of your garden in the summer? Complete the following to receive specialist advice.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Your name: <input id="name" type="text" required placeholder="Name"></label>
+        <label id="email-label">Your email: <input id="email" type="email" required placeholder="Email"></label>
+        <label id="number-label">Your age: <input id="number" type="number" min="10" max="99" placeholder="Age"></label>
+        </fieldset>
+        <fieldset>
+        <label>Preferred ground type: 
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Lawn</option>
+            <option value="2">Paving</option>
+          </select>
+        </label>
+        <label>
+          <input type="radio" name="radio-answer" value="1" class="inline">Front garden
+        </label>
+        <label>
+          <input type="radio" name="radio-answer" value="2" class="inline">Back garden
+        </label>
+        <label>
+          <input type="checkbox" value="1" class="inline">Flowers</label>
+        <label>
+          <input type="checkbox" value="2" class="inline">Shrubs</label>
+        <label>
+          <input type="checkbox" value="3" class="inline">Trees</label>
+      </fieldset>
+      <fieldset>
+        <label>Special features you would like to include:
+          <textarea rows="4" cols="40"></textarea>
+        </label>
+      </fieldset>
+        <input type="submit" id="submit">
+    </form>
+  </body>
+  </html>
