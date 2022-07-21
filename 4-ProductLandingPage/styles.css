@@ -1,0 +1,120 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth; /* nice scrolling */
+    }
+}
+
+* {
+  font-family: arial, sans-serif; /* typeface for whole page */
+}
+
+header {
+  position: fixed; /* keep the navbar at the top of the screen */
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #E5C7E6; 
+  display: flex;
+}
+
+#header-img {
+  width: 10vw;
+  max-width: 60px;
+}
+
+ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#nav-bar li {
+  list-style: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none; /* removes underlines from links */
+}
+
+div {
+   align: center;
+}
+
+section {
+  max-width: 1000px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; /* content in centre of webpage */
+}
+
+h1 {
+  padding-top: 110px;
+  font-size: 3em;
+}
+
+h2 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 2em
+}
+
+p {
+  font-size: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.paint {
+  background-color: #EFE7F5;
+  border-radius: 20px;
+  padding-bottom: 5px;
+}
+
+iframe {
+    align: center;
+    padding-top: 30px;
+}
+
+#video {
+  height: 400px;
+  width: 600px;
+  border: none;
+}
+
+form {
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+}
+
+input {
+    margin: 0.1em auto;
+    width: 30%;
+    min-height: 3em;
+    font-size: 20px;
+    min-width: 250px;
+}
+
+#submit {
+    display: block;
+    width: 20%;
+    margin: 0.1em auto;
+    height: 2em;
+    font-size: 25px;
+    background-color: #E7D7F4 ;
+    border-color: white;
+    min-width: 250px;
+    border-radius: 15px;
+}
