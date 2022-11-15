@@ -1,0 +1,98 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+* {
+  font-family: "Century gothic", sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #D8DAFC;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem; /* This sets the list as a row */
+}
+
+ul {
+    list-style: none; /* Removes bullet points from list elements */
+}
+
+a {
+  text-decoration: none; /* removes underlines from links */
+  color: rgb(148, 147, 147);
+}
+
+.nav-list a {
+  display: block;
+  padding: 2rem;
+}
+
+section {
+  background-color: #E1EEF7;
+  border-radius: 10px;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 100vh;
+
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+
+}
+
+h1 {
+  display: block;
+  padding-top: 110px;
+  font-size: 3rem;
+  color:rgb(121, 120, 120);
+  text-align: center;
+}
+
+h2 {
+    color:rgb(66, 66, 66);
+    text-align: center;
+}
+
+.project-tile {
+  text-align: center;
+}
+
+#links {
+
+    align-content: center;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+
+footer {
+    color:rgb(66, 66, 66);
+}
